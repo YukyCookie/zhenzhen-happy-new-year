@@ -989,7 +989,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
                     window.location.href = "https://weibo.com/u/5622416838" // 结束界面左边连接
                 }, t.prototype.bannerButtonFunc = function() {
-                    window.location.href = "https://q-zhenzhen.vercel.app/" // 奖杯按钮
+                    window.location.href = "" // 连接
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     var n = this;
                     this.scheduleOnce(function() {
@@ -1007,7 +1007,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "https://q-zhenzhen.vercel.app/" // 右上角连接
+                        window.location.href = "https://weibo.com/u/5622416838" // 主页连接
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
@@ -1901,7 +1901,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "https://q-zhenzhen.vercel.app/"; // 未知连接按钮位置
+                    window.location.href = "https://q-zhenzhen.vercel.app/"; // 右上角连接
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
